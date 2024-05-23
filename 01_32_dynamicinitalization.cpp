@@ -3,7 +3,7 @@ using namespace std;
 
 class Bankdeposit
 {
-    int principal;
+    int principle;
     int years;
     float interestrate;
     float returnvalue;
@@ -16,7 +16,7 @@ public:
 };
 Bankdeposit ::Bankdeposit(int p, int y, float r)
 {
-    principal = p;
+    principle = p;
     years = y;
     interestrate = r;
     returnvalue = principal;
@@ -28,7 +28,7 @@ Bankdeposit ::Bankdeposit(int p, int y, float r)
 
 Bankdeposit ::Bankdeposit(int a, int b, int c)
 {
-    principal = a;
+    principle = a;
     years = b;
     interestrate = float(c) / 100;
     returnvalue = principal;
@@ -40,7 +40,7 @@ Bankdeposit ::Bankdeposit(int a, int b, int c)
 
 void Bankdeposit ::show()
 {
-    cout << "The principal amount was " << principal << endl
+    cout << "The principle amount was " << principle << endl
          << "Returns the amount after " << years << " years is:- " << returnvalue << endl;
 }
 
@@ -51,7 +51,7 @@ int main()
     float r;
     int R;
 
-    cout << "Enter the  principal amount :- ";
+    cout << "Enter the  principle amount :- ";
     cin >> p;
     cout << "Enter For how many years you've invested:- ";
     cin >> y;
@@ -60,7 +60,7 @@ int main()
     bd1 = Bankdeposit(p, y, r);
     bd1.show();
 
-    cout << "Enter the  principal amount :- ";
+    cout << "Enter the  principle amount :- ";
     cin >> p;
     cout << "Enter For how many years you've invested:- ";
     cin >> y;

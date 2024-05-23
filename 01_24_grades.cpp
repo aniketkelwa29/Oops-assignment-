@@ -27,8 +27,7 @@ int main()
     }
    else if (marks < 45 && marks >= 25)
     {
-        cout << " || Your  grade is E
-            ||" << endl;
+        cout << " || Your  grade is E ||" << endl;
     }
     else
     {

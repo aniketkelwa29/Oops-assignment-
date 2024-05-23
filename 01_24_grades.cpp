@@ -10,24 +10,25 @@ int main()
 
     if (marks <= 100 && marks >= 80)
     {
-        cout << " || You're an A grade student ||" << endl;
+        cout << " || Your grade is A ||" << endl;
     }
 
    else  if (marks < 80 && marks >= 60)
     {
-        cout << " || You're an B grade student ||" << endl;
+        cout << " || Your grade is B ||" << endl;
     }
     else if (marks < 60 && marks >= 50)
     {
-        cout << " || You're an C grade student ||" << endl;
+        cout << " || Your grade is C ||" << endl;
     }
     else if (marks < 50 && marks > 40)
     {
-        cout << " || You're an D grade student ||" << endl;
+        cout << " || Your grade is D ||" << endl;
     }
    else if (marks < 45 && marks >= 25)
     {
-        cout << " || You're an E grade student ||" << endl;
+        cout << " || Your  grade is E
+            ||" << endl;
     }
     else
     {
